@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Ergiin Designs - Main</title>
+          
+            <link rel ="stylesheet" href="Style.css"/>
+           <link rel = "stylesheet"
+            href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"    />
+            <link herf = "https://fonts.googleapis.com/css?family=Montserrat"
+            rel = "stylesheet"/>
+            </head>
+                        
+            <body>
+                <main>              
+                <nav>
+                    <ul>
+                <li><a href= "#">Home</a></li>
+                <li><a href= "#">Tours</li></a>
+                <li><a href = "#">Gallery</a></li>
+                <li><a href = "#">About</a></li>
+                <li><a href = "#">Contacts Us</a></li>
+               </ul> 
+
+            </nav>
+           
+                <!--This is the main section -->
+                <section class="grey"> 
+                <h2>Ergiin Designs - Find Us</h2>
+                           
+                
+               <div style="width: 100%"><iframe 
+                        width="100%" 
+                        height="600" 
+                        frameborder="0" 
+                        scrolling="yes" 
+                        marginheight="0" 
+                        marginwidth="0" 
+                        src="https://www.itonlinelearning.com/">
+                        </iframe></div>
+                </section>
+                
+
+                <div class="iframe-controls">
+                <button onclick="reloadFrame()">Reload Content</button>
+                <button onclick="toggleFullscreen()">Fullscreen</button>
+                </div>
+
+                <script>
+                function reloadFrame() {
+                const frame = document.querySelector('iframe');
+                        frame.src = frame.src;
+                    }
+
+                function toggleFullscreen() {
+                const frame = document.querySelector('iframe');
+                if (frame.requestFullscreen) {
+                frame.requestFullscreen();
+    
+            }
+}
+</script>
+                 </main>
+
+                 <aside><h3> We have moved to the below address below:</h3>
+                        <p>location details: Full address Phone Email etc aside info</p>
+                </aside>
+                 
+                  <footer>
+                 <div class="footer-content">
+
+                 <p>&copy; 2026 Ergiin Designs. All rights reserved</p>
+
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Tours</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Conact Us</a></li>
+                    </ul>
+
+                    <p class = "footer-social">
+                        <a href ="https//www.Facebook.com"" style="color:#e6e6e6;"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href ="https//www.Instegram.com"" style="color:#e6e6e6;"><i class="fa-brands fa-instagram"></i></a>
+                        <a href ="https//www.Twitter.com"" style="color:#e6e6e6;"><i class="fa-brands fa-twitter"></i></a>
+                    </p>               
+
+                 </div>
+
+
+                </footer>     
+                                                           
+            </body>   
+           
+    </html>
